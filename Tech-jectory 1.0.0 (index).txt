@@ -1,0 +1,65 @@
+
+<! doctype html>
+<html>
+  <body>
+  <h1><div id="fo">T->J</div>TECH-JECTORY </h1>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="script.js" type ="text/javascript"></script>
+  <div><p1> A super-quick survey that predicts your trajectory in Software Sector !!</p1></div><br><br>
+    <div><p1>Select the most accurate response for each question and press SUBMIT to unlock your "Tech-jectory"</p1></div><br>
+    <form name="one" id="one">
+    
+    <div>Strongest Coding Language:</div>
+      <input type="radio" name = "lang" value="php">PHP</br>
+      <input type="radio" name = "lang" value="kot"> Kotlin </br>
+      <input type="radio" name = "lang" value="css">CSS& HTML</br>
+      <input type="radio" name = "lang" value="java"> Java </br>
+      <input type="radio" name = "lang" value="c"> C++ </br>
+      <input type="radio" name = "lang" value="pyt"> Python </br>
+      <input type="radio" name = "lang" value="sql">SQL </br>
+      <input type="radio" name = "lang" value="js"> Java Script</br></form><br>
+      <form name="two" id="two"><div>Strongest Platform/Software/Framework:</div>
+      <input type="radio" name = "sw" value="dj">Django</br>
+      <input type="radio" name = "sw" value="db"> My SQL/ Oracle/ MongoDB</br>
+      <input type="radio" name = "sw" value="as">Android Studio</br>
+      <input type="radio" name = "sw" value="git"> GIT(Version Control Software) </br>
+      <input type="radio" name = "sw" value="rab"> React/Angular/Bootstrap </br>
+      <input type="radio" name = "sw" value="apc"> Apache/ Hive </form></br>
+  <form name="three" id="three">
+    <div>Interests or Possessed qualities</div>
+    <input type="radio" name = "sk" value="gd"> Graphic Knowledge</br>
+    <input type="radio" name = "sk" value="app"> Ideas to create Games and Dynamic Programs </br>
+    <input type="radio" name = "sk" value="dbms"> Create and Secure Large Data</br>
+    <input type="radio" name = "sk" value="bac">  Develop Complex Codes to solve problems</br>
+    <input type="radio" name = "sk" value="prd"> Organize and Maintain High-Scale Software</br>
+    <input type="radio" name = "sk" value="ai">Create Futuristic and Intelligent Software </form></br>
+  </form>
+<form name="four" id="four">
+  <div>Related Skillset:</div>
+    <input type="radio" name = "rs" value="lin">  LINUX</br>
+    <input type="radio" name = "rs" value="vpn">LAN/WAN/VPN</br>
+    <input type="radio" name = "rs" value="api">Application Programming Interface</br>
+    <input type="radio" name = "rs" value="ps">Statistics/Probability/Linear Algebra</br>
+    <input type="radio" name = "rs" value="seo">Search Engine Optimization</br>
+    <input type="radio" name = "rs" value="dsa">Data Structure & Algorithm</br>
+
+  
+</form>
+  <br><br>
+
+
+  
+  
+  <input type="button" id = "popy" name="" value= SUBMIT  onclick="check()"  
+  <div> <p>TECH-JECTORY ANALYSIS:</p></div>
+
+  
+    <foot><div>Created by: Ayush Soni </div><div>version 1.0.0</div></foot>
+</body>
+</html>
+    
+     
+
