@@ -2,6 +2,16 @@
 <! doctype html>
 <html>
   <body>
+    <div id='woobox-root'></div>
+	<script>
+		(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "https://woobox.com/js/plugins/woo.js";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'woobox-sdk'));
+	</script>
   <h1><div id="fo">T->J</div>TECH-JECTORY </h1>
    
    <a href="./index2.html">Alternate Page</a>
@@ -62,6 +72,7 @@
   
   <input type="button" id = "popy" name="" value= SUBMIT  onclick="check()"  
   <div> <p>TECH-JECTORY ANALYSIS:</p></div>
+<div class="woobox-offer" data-offer="gq9fdc" data-trigger="enter"></div>
 
   
     <foot><div>Created by: Ayush Soni </div><div>version 1.0.0</div></foot>
